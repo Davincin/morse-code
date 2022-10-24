@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.morse__button, .morse__resetButton {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  margin: 50px 0;
+  outline: none;
+  color: #fff;
+  background-color: rgb(1, 105, 105);
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.morse__resetButton {
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.morse__button:hover, .morse__resetButton:hover {
+  background-color: rgb(1, 63, 63);
+}
+
+.morse__code, .morse__translated, .morse__infoText, .morse__infoItem  {
+  color: #fff;
+  white-space: nowrap;
+}
+
+.morse__info {
+  align-self: flex-start;
+  margin-top: 200px;
+}
